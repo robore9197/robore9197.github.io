@@ -13,6 +13,8 @@ CONFIG = {
   'theme_package_version' => "0.1.0"
 }
 
+# The rake task automatically creates a file with properly formatted filename and YAML Front Matter. Make sure to specify your own title. By default, the date is the current date.
+# The rake task will never overwrite existing posts unless you tell it to.
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
 desc "Begin a new post in #{CONFIG['posts']}"
 task :post do
