@@ -24,3 +24,10 @@ print_hi('Tom')
 {% assign posts_collate = site.posts %}
 {% include JB/posts_collate %}  
 </ul>
+
+
+<h2> Categories </h2>
+<ul>
+  	  {% assign categories_list = site.categories %}  
+  	  {% include JB/categories_list %}
+</ul>
