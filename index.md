@@ -11,7 +11,9 @@
   \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
 </p>
 
-
+<p>
+Test ruby script  
+</p>
 {% puts "A string" %}
 
 
