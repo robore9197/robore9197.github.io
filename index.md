@@ -14,7 +14,7 @@
 <p>
 Test ruby script  
 </p>
-{% puts "A string" %}
+
 
 
 
