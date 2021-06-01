@@ -17,3 +17,10 @@ print_hi('Tom')
 {% assign pages_list = site.pages %}
 {% include JB/pages_list %}
 </ul>
+
+
+<h2> All Posts </h2>
+<ul>
+{% assign posts_collate = site.posts %}
+{% include JB/posts_collate %}  
+</ul>
