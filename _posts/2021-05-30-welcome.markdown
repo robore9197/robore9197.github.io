@@ -2,5 +2,5 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2021-05-30 17:13:54 +0300
-categories: jekyll update
+categories: jekyll
 ---
