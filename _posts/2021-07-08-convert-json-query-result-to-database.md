@@ -6,3 +6,5 @@ category: jekyll
 tags: []
 ---
 {% include JB/setup %}
+
+# Json result structure
