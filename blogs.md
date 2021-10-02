@@ -12,8 +12,15 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+#Clone private repository
+
 ```
 git clone https://<username>:<ACCESS_TOKEN>@github.com/<username>/repository.git
+```
+
+#Set url after cloning
+```
+git remote set-url https://<username>:<ACCESS_TOKEN>@github.com/<username>/repository.git
 ```
 
 <h2>All Pages</h2>
