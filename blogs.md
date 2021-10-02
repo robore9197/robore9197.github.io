@@ -12,6 +12,10 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+```
+git clone https://<username>:<ACCESS_TOKEN>@github.com/<username>/repository.git
+```
+
 <h2>All Pages</h2>
 <ul>
 {% assign pages_list = site.pages %}
